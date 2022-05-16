@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gothic A1', sans-serif;
+  font-weight: 400;
+  color: var(--text-col);
+}
+a{
+  text-decoration: none;
+}
+ul, li{
+  list-style: none;
+}
+button{
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+html{scroll-behavior: smooth;}
+body{
+  background-color: #292929;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

@@ -1,0 +1,529 @@
+body{
+  width: 100%;
+  height: 1327px;
+/*   background-image: url(../../../__bg/Layer%2021.png);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+video {
+  position : fixed;
+	top : 0; 
+	left : 0;
+	width : auto;
+	height : auto;
+	z-index : -1;
+}
+
+/*Layout*/
+/*****************header*****************/
+#all{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0 0 0 / 20%);
+  position: relative;
+}
+
+header>.language{
+  width: 96px;
+  height: 32px;
+  display: inline-block;
+  margin-top: 4px;
+  left: 240px;
+  position: relative;
+  display: inline-block;
+}
+.language>a:nth-child(1) img{
+  width: 17px;
+  height: 12px;
+  left: 0;
+  top: 12px;
+  display: inline-block;
+  position: absolute;
+}
+.language>a p{
+  top: 50%;
+  left: 52%;
+  font-size: 10px;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.language>a:nth-child(3) img{
+  width: 17px;
+  height: 13px;
+  right: 0;
+  top: 12px;
+  display: inline-block;
+  position: absolute;
+}
+header>.logo{
+  width: 110px;
+  height: 32px;
+  display: inline-block;
+  margin-top: 12px;
+  left: 50.2%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+header>.login_box{
+  width: 152px;
+  height: 32px;
+  display: inline-block;
+  right: 240px;
+  top: 4px;
+  position: absolute;
+}
+.login_box ul li{
+  float: left;
+  margin-left: 11px;
+  line-height: 32px;
+}
+.login_box img{
+  width: 14px;
+  height: 12px;
+}
+/*****************nav*****************/
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(0 0 0 / 20%);
+  position: relative;
+}
+
+nav>.menu{
+  width: 750px;
+  height: 50px;
+  left: 50%;
+  top: 38%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.menu>.home{
+  width: 140px;
+  height: 50px;
+  margin-top: 10px;
+  left: 0;
+  position: absolute;
+}
+.home>a{
+  text-align: center;
+  transition: all 1s ease;
+}
+.home h2:hover{
+  color: #f15a21;
+}
+.menu>.news{
+  width: 140px;
+  height: 50px;
+  margin-top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+.news>a{
+  text-align: center;
+}
+.news h2:hover{
+  color: #f15a21;
+}
+.menu>.service_guide{
+  width: 140px;
+  height: 50px;
+  margin-top: 10px;
+  right: 0;
+  position: absolute;
+}
+.service_guide>a{
+  text-align: center;
+  transition: all 1s ease;
+}
+.service_guide h2:hover{
+  color: #f15a21;
+}
+.menu .neon_bar{
+  width: 68px;
+  height: 3px;
+  margin-top: 6px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+nav>.search_bar{
+  top: 40%;
+  width: 152px;
+  height: 24px;
+  right: 240px;
+  background-color: rgb(255 255 255 / 15%);
+  transform: translateY(-50%);
+  position: absolute;
+}
+.search_bar>.search_icon{
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.search_bar>.search_area{
+  width: 115px;
+  height: 20px;
+  background-color: transparent;
+  margin-top: 2px;
+  margin-left: 10px;
+  outline: none;
+  border: 0;
+}
+
+.search_bar>.search_icon img{
+  width: 18px;
+  height: 18px;
+}
+/*****************section****************/
+section{
+  width: 1440px;
+  height: 980px;
+  margin: auto;
+  position: relative;
+  border: 1px solid transparent;
+}
+
+section>form{
+  width: 675px;
+  height: 246px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 272px;
+  position: relative;
+}
+
+form>.CheckBox{
+  width: 100%;
+  height: 38px;
+  position: relative;
+}
+.CheckBox div{
+  margin-top: 19px;
+  margin-left: 10px;
+  transform: translateY(-50%);
+}
+.CheckBox>.check_box_01{
+  display: inline-block;
+  margin-left: 0px;
+}
+.CheckBox>.check_box_02{
+  display: inline-block;
+}
+
+.CheckBox>.check_box_03{
+  display: inline-block;
+}
+
+form>.select_location{
+  margin-top: 16px;
+  width: 100%;
+  height: 38px;
+  position: relative;
+}
+.departure>select{
+  width: 296px;
+  height: 38px;
+  padding-left: 40px;
+  border-radius:3px;
+  left: 0;
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(255 255 255 / 10%);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.departure>select:hover{
+  background-color: rgb(20 20 20 / 16%);
+}
+.change_icon{
+  width: 32px;
+  height: 32px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.destination>select{
+  width: 296px;
+  height: 38px;
+  padding-left: 40px;
+  border-radius:3px;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  background-color: rgb(255 255 255 / 10%);
+  cursor: pointer;
+  transition: all 1s ease;
+}
+.destination>select:hover{
+  background-color: rgb(20 20 20 / 16%);
+}
+
+form>.date{
+  margin-top: 16px;
+  width: 100%;
+  height: 38px;
+  position: relative;
+}
+.date>.select_date{
+  width: 540px;
+  height: 38px;
+  position: relative;
+  background-color: rgb(255 255 255 / 10%);
+  transition: all 1s ease;
+}
+.select_date:hover{
+  background-color: rgb(20 20 20 / 16%);
+}
+/* .select_date img{
+  width: 30px;
+  height: 32px;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  display: inline-block;
+} */
+.select_date>input:first-child{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  display: inline-block;
+  cursor: pointer;
+  transition: all 1s ease;
+  outline: none;
+}
+.select_date>input:last-child{
+  position: absolute;
+  top: 50%;
+  left: 247px;
+  transform: translateY(-50%);
+  display: inline-block;
+  cursor: pointer;
+  transition: all 1s ease;
+  outline: none;
+}
+.select_date>p{
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 232px;
+  transform: translate(-50%, -50%);
+}
+
+.date>.reservation_btn{
+  background-color: rgb(0 0 0 / 13%);
+  width: 97px;
+  height: 35px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.reservation_btn>input{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 9px 34px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+form>.select_people{
+  margin-top: 16px;
+  width: 100%;
+  height: 38px;
+  position: relative;
+}
+.select_people>select{
+  background-color: white;
+  position: absolute;
+  left: 50%;
+}
+.select_people>select:nth-child(1){
+  margin-left: 0;
+}
+.select_people>select:nth-child(2){
+  margin-left: 10%;
+}
+.select_people>select:nth-child(3){
+  margin-left: 20%;
+}
+
+.notice{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 130px;
+}
+.notice li{
+  display: inline-block;
+}
+.notice li:nth-child(2){
+  margin-bottom: 24px;
+  margin-left: 6px;
+}
+.arrow_u_d{
+  width: 18px;
+  height: 38px;
+  display: inline-block;
+  position: absolute;
+}
+.arrow_u_d img{
+  width: 18px;
+  height: 16px;
+}
+.arrow_u_d a:first-child img{
+  transform: rotate(-180deg);
+}
+/*****************footer****************/
+footer{
+  width: 1900px;
+  height: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+footer ul>li{
+  float: left;
+}
+
+footer>.top{
+  position: absolute;
+  margin-top: 30px;
+  top: 0;
+  left: 240px;
+  display: inline-block;
+}
+.top>ul>li:first-child{
+  margin-left: 0;
+}
+.top>ul>li{
+  margin-left: 60px;
+}
+
+footer>.sns{
+  margin-top: 30px;
+  position: absolute;
+  right: 240px;
+  display: inline-block;
+}
+.sns>ul>li:last-child{
+  margin-right: 26px;
+}
+.sns>ul>li{
+  margin-left: 22px;
+}
+
+footer>.information{
+  position: absolute;
+  margin-top: 30px;
+  top: 80px;
+  left: 240px;
+  display: inline-block;
+}
+
+footer>.logo{
+  position: absolute;
+  margin-top: 30px;
+  top: 90px;
+  right: 246px;
+  margin-right: 40px;
+  display: inline-block;
+}
+.logo>img{
+  width: 148px;
+  height: 32px;
+}
+
+/*content*/
+/*****************header*****************/
+.logo>a>img{
+  width: 108px;
+  height: 22px;
+}
+
+.sns img{
+  width: 30px;
+  height: 30px;
+}
+.select_date input{
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+.select_people select{
+  background-color: transparent;
+  border: transparent;
+}
+.reservation_btn input{
+  background-color: transparent;
+  border: transparent;
+}
+.drawer_menu h2{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu>.home>.neon_bar{
+  background-color: #f15a21;
+}
+.menu>.news>.neon_bar{
+  background-color: #eef1f5;
+}
+.menu>.service_guide>.neon_bar{
+  background-color: #eef1f5;
+}
+
+/* .language option:nth-child(1){
+  background-image: url(../img/flag/Japan.png);
+} */
+
+.information>p:last-child{
+  margin-top: 22px;
+}
+/********************************/
+.center{
+  display: inline-block;
+  margin-left: 240px;
+  margin-top: 10px;
+}
+input[id="menu"]{display: none;}
+input[id="menu"]+label{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  width: 24px;
+  height: 20px;
+}
+input[id="menu"]+label span{
+  display: block;
+  position: absolute;
+  background-color: white;
+  height: 3px;
+  width: 100%;
+  border-radius: 30px;
+  transition: all .2s;
+}
+input[id="menu"]+label span:nth-child(1){top: 0%;}
+input[id="menu"]+label span:nth-child(2){
+  top: 50%; transform: translate(0, -50%);}
+input[id="menu"]+label span:nth-child(3){bottom: 0;}
+
+input[id="menu"]:checked + label span:nth-child(1){top: 50%; transform: translateY(-50%) rotate(45deg);}
+input[id="menu"]:checked + label span:nth-child(2){opacity: 0;}
+input[id="menu"]:checked + label span:nth-child(3){bottom: 50%; transform: translateY(50%) rotate(-45deg);}

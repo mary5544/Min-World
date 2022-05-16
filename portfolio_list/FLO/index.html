@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FLO | 지금 당신의 음악, 플로</title>
+	<link rel="shortcut icon" href="img/pop.png">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+	<link rel="stylesheet" href="css/bring.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="css/audioplayer.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/audioplayer.js"></script>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="left">
+			<nav id="nav">
+				<div class="logo">
+					<a href="index.html"><img src="img/logo/FLO.png" alt="logo"></a></div>
+				<ul class="music">
+					<li class="nav-title"><h3>Music</h3></li>
+					<li class="nav-menu"><a href="index.html"><span class="material-icons md-14">home</span><p>HOME</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">looks_one</span><p>둘러보기</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">radio</span><p>라디오</p></a></li>
+				</ul>
+				
+				<ul class="library">
+					<li class="nav-title"><h3>Library</h3></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">person_search</span><p>나만을 위한 추천</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">restart_alt</span><p>최근감상</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">favorite</span><p>많이 들은 곡</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">folder_special</span><p>내 리스트</p></a></li>
+				</ul>
+				
+				<ul class="support">
+					<li class="nav-title"><h3>Support</h3></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">support_agent</span><p>고객지원</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">local_activity</span><p>이용권 구매</p></a></li>
+					<li class="nav-menu"><a href="#none"><span class="material-icons md-14">audiotrack</span><p>PC 플레이어 설치</p></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="right">
+			<div id="header">
+				<div class="header-status">
+					<div class="h-s-btn">
+						<a href="#none"><span class="material-icons md-14">arrow_back_ios</span></a>
+						<a href="#none"><span class="material-icons md-14">arrow_forward_ios</span></a>
+					</div>
+
+					<div class="search_bar">
+						<div class="search_icon">
+							<a href="#none"><img src="img/icon/magnifying-glass.png" alt="search_icon" width="14px" height="14px"></a>
+						</div>
+						<input class="search_text" type="text">
+					</div>
+
+					<div class="user_profile_wrap">
+						<div class="user_profile">
+							<!-- <a href="#none"><p>mary5544</p></a> -->
+							<div class="profile_pic">
+								<a href="#none"><img src="img/AlbumArt/sub----/login.jpg" alt="프사"></a>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="contents_wrap">
+				<div id="contents_sort">
+					<div id="con_top">
+						<div class="new_album">
+							<a href="#"><h2>신규앨범</h2></a>
+							<div class="btn_wrap">
+								<a href="#none">more</a>
+								<!-- <div class="left_btn">
+									<a href="#none"><img src="img/icon/Right-and-left/left.png" alt="left-icon"></a>
+								</div>
+								<div class="right_btn">
+									<a href="#none"><img src="img/icon/Right-and-left/right.png" alt="right-icon"></a>
+								</div> -->
+							</div>
+
+							<div class="swiper-container mySwiper">
+								<div class="swiper-wrapper album_pack_01">
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/05.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">Avoid the oasis</span></a>
+										<a href="#none"><span class="artist">John Smith</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/Wanted.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">Wanted</span></a>
+										<a href="#none"><span class="artist">OneRepublic</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/Blue Moon.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">Blue Moon EP</span></a>
+										<a href="#none"><span class="artist">Living Room</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/We don't talk together.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">We don't talk together</span></a>
+										<a href="#none"><span class="artist">헤이즈</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/LENI.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">행성</span></a>
+										<a href="#none"><span class="artist">레니 (LENI)</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/Table For Two.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">Table For Two</span></a>
+										<a href="#none"><span class="artist">Lucky Daye</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/500x500bb.webp" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">After Hours</span></a>
+										<a href="#none"><span class="artist">The Weeknd</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/YUKIKA.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">애월(愛月)</span></a>
+										<a href="#none"><span class="artist">YUKIKA (유키카)</span></a> 
+									</div>
+									<div class="swiper-slide album">
+										<a href="#none"><img src="img/AlbumArt/best/dosii.jpeg" style="object-fit: cover;"></a>
+										<a href="#none"><span class="title">dosii</span></a>
+										<a href="#none"><span class="artist">도시 (dosii)</span></a> 
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="con_under">
+						<div class="con_under_left">
+
+							<div class="con_title">
+								<a href="#"><h2>FLO 인기순위</h2></a>
+								<a href="#none" class="more_btn">more</a>
+							</div>
+
+							<ul class="top5-music-list">
+								<li class="t-m-l_01">
+									<div class="t-m-l_album_art">
+										<img src="img/chart/bts-1.jpeg" alt="실시간 1위 커버">
+										<div class="music_info">
+											<div class="t-m-l_title-name">
+												<span>Butter</span>
+											</div>
+
+											<div class="t-m-l_artist-name">
+												<span>방탄소년단</span>
+											</div>
+
+											<div class="t-m-l_album-name">
+												<span>Butter</span>
+											</div>
+
+											<div class="t-m-l_like-icon">
+												<span><i class="fas fa-heart"></i></span>
+											</div>
+										</div>
+								</li>
+
+								<li class="t-m-l_02">
+									<div class="t-m-l_album_art">
+										<img src="img/chart/HAPPEN.jpg" alt="실시간 2위 커버">
+										<div class="music_info">
+											<div class="t-m-l_title-name">
+												<span>헤픈 우연</span>
+											</div>
+
+											<div class="t-m-l_artist-name">
+												<span>헤이즈</span>
+											</div>
+
+											<div class="t-m-l_album-name">
+												<span>HAPPEN</span>
+											</div>
+
+											<div class="t-m-l_like-icon">
+												<span><i class="fas fa-heart"></i></span>
+											</div>
+										</div>
+								</li>
+
+								<li class="t-m-l_03">
+									<div class="t-m-l_album_art">
+										<img src="img/chart/next.jpg" alt="실시간 3위 커버">
+										<div class="music_info">
+											<div class="t-m-l_title-name">
+												<span>Next Level</span>
+											</div>
+
+											<div class="t-m-l_artist-name">
+												<span>aespa</span>
+											</div>
+
+											<div class="t-m-l_album-name">
+												<span>Next Level</span>
+											</div>
+
+											<div class="t-m-l_like-icon">
+												<span><i class="fas fa-heart"></i></span>
+											</div>
+										</div>
+								</li>
+
+								<li class="t-m-l_04">
+									<div class="t-m-l_album_art">
+										<img src="img/chart/dum.jpg" alt="실시간 4위 커버">
+										<div class="music_info">
+											<div class="t-m-l_title-name">
+												<span>Dun Dun Dance</span>
+											</div>
+
+											<div class="t-m-l_artist-name">
+												<span>오마이걸 (OH MY GIRL)</span>
+											</div>
+
+											<div class="t-m-l_album-name">
+												<span>Butter</span>
+											</div>
+
+											<div class="t-m-l_like-icon">
+												<span><i class="fas fa-heart"></i></span>
+											</div>
+										</div>
+								</li>
+
+								<li class="t-m-l_05">
+									<div class="t-m-l_album_art">
+										<img src="img/chart/roll.jpg" alt="실시간 5위 커버">
+										<div class="music_info">
+											<div class="t-m-l_title-name">
+												<span>롤린 (Rollin')</span>
+											</div>
+
+											<div class="t-m-l_artist-name">
+												<span>브레이브걸스</span>
+											</div>
+
+											<div class="t-m-l_album-name">
+												<span>Rollin'</span>
+											</div>
+
+											<div class="t-m-l_like-icon">
+												<span><i class="fas fa-heart"></i></span>
+											</div>
+										</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="con_under_right">
+							<a href="#"><h2>stage&FLO:취향의 발견</h2></a>
+
+								<!-- <div class="btn_wrap">
+									<div class="left_btn">
+										<a href="#none"><img src="img/icon/Right-and-left/left.png" alt="left-icon"></a>
+									</div>
+									<div class="right_btn">
+										<a href="#none"><img src="img/icon/Right-and-left/right.png" alt="right-icon"></a>
+									</div>
+								</div> -->
+
+								<video class="video" src='img/video/Brave Girls.mp4' controls autoplay muted></video>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="music_player">
+			<div id="wrapper" style="margin-top:100px">
+				<audio preload="auto" controls>
+							<source src="mp3/dosii - lovememore..mp3">
+				</audio>
+				<script>
+					$(function() {
+						$('audio').audioPlayer();
+					});
+				</script>
+
+				<div class="music_player_icon">
+						<a href="#none"><span class="material-icons md-14">shuffle</span></a>
+						<a href="#none"><span class="material-icons md-14">skip_previous</span></a>
+						<a href="#none"><span class="material-icons md-14">skip_next</span></a>
+						<a href="#none"><span class="material-icons md-14">repeat</span></a>
+				</div>
+
+				<div class="player_musicinfo">
+					<div class="p-mi-album_art"></div>
+					<div class="p-mi-music_information">
+						<a href="#none"><p class="p-mi-title">lovememore </p></a>
+						<a href="#none"><p class="p-mi-artist">도시 (dosii)</p></a>
+					</div>
+
+					<div class="p-mi-icon">
+						<a href="#none"><span class="material-icons md-14">favorite</span></a>
+						<a href="#none"><span class="material-icons md-14">library_music</span></a>
+						<a href="#none"><span class="material-icons md-14">queue_music</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- ----------모달창------------>
+		<button type='button' id="modal_btn">mary5544</button>
+		<div class="black_bg"></div>
+		<div class="modal_wrap">
+			<div class="modal_inner">
+				<div class="modal_close"><a href="#">close</a></div>
+				<div class="modal_left"></div>
+
+				<div class="modal_right">
+					<div class="modal_right_inner">
+						<div class="modal_from">
+							<input type="text" placeholder="아이디(이메일" class="user_id_form">
+							<input type="password" placeholder="비밀번호" class="user_pw_form">
+
+							<div class="checkbox_wrap">
+							<input type="checkbox" name="checkbox" class="checkbox">
+							<p>아이디 저장</p>
+							</div>
+							<input type="submit" class="login_btn" value="로그인">
+							<div class="Member_inquiry">
+								<a href="#none"><span>회원가입</span></a>
+								<a href="#none"><span>아이디 찾기</span></a>
+								<a href="#none"><span>비밀번호 찾기</span></a>
+							</div>
+
+							<div class="sns_login">
+								<input type="submit" class="t_login" value="T아이디 로그인">
+								<input type="submit" class="phone_login" value="휴대폰 번호 로그인">
+							</div>
+							<div class="sns_icon">
+								<a href="#none"><img src="img/sns/btn_login_naver.png" alt="네이버 로그인"></a>
+								<a href="#none"><img src="img/sns/kakao.jpeg" alt="카카오 로그인"></a>
+								<a href="#none"><img src="img/sns/apple.jpg" alt="애플 로그인"></a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- ----------모달창 end------------->
+	</div>
+
+	<!--슬라이드 관련-->
+	<!-- Swiper JS -->
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- Initialize Swiper -->
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 1,
+			spaceBetween: 11,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 2,
+					spaceBetween: 20
+				},
+				768: {
+					slidesPerView: 4,
+					spaceBetween: 40
+				},
+				1024: {
+					slidesPerView: 5,
+					spaceBetween: 50
+				}
+			}
+		});
+	</script>
+
+
+	<!--모달관련-->
+	<script>
+		window.onload = function() {
+
+		function onClick() {
+				document.querySelector('.modal_wrap').style.display ='block';
+				document.querySelector('.black_bg').style.display ='block';
+		}   
+		function offClick() {
+				document.querySelector('.modal_wrap').style.display ='none';
+				document.querySelector('.black_bg').style.display ='none';
+		}
+
+		document.getElementById('modal_btn').addEventListener('click', onClick);
+		document.querySelector('.modal_close').addEventListener('click', offClick);
+
+	};
+	</script>
+</body>
+</html>

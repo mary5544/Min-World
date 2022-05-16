@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>성민의 퍼블월드</title>
+  <!-- cdn -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="index.html"><h1>
+          <span>성</span>
+          <span>민</span>
+          <span>의</span>
+          <span>퍼</span>
+          <span>블</span>
+          <span>월</span>
+          <span>드</span>
+        </h1></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav-inner">
+          <li><a href="#section-1"><span>Home</span></a></li>
+          <li><a href="#section-2"><span>About</span></a></li>
+          <li><a href="#section-4"><span>Portfolio</span></a></li>
+          <!-- <li><a href="#none"><img src="img/SungMin-img/login.gif"></a></li> -->
+          </ul>
+      </nav>
+    </header>
+
+      <!-- section - 1 -->
+      <div id="section-1">
+        <div class="bg-layer">
+          <video src="img/Frame - 81089.mp4" autoplay loop muted></video>
+          <div class="content">
+            <div class="title-box">
+              <h3>성민의 퍼블월드</h3>
+              <h3>SUNG MIN - KIM</h3>
+              <h3>Web Pubisher / UI & Markup Developer</h3>
+            </div>
+            <div class="sub-title-box">
+              <p>방문해 주셔서 감사합니다.</p>
+              <p>항상 노력하는 모습을 보여드리는 웹 퍼블리셔가 되겠습니다.</p>
+            </div>
+            <form action="sec1-btn">
+              <input type="button" class="bt_p bt-01" value="Portfolio 보러가기" onClick="document.getElementById('section-4').scrollIntoView();">
+              <input type="button" class="bt_p bt-02" value="이력서 보러가기" onclick="window.open('https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:0b470b4a-605c-46a5-bc04-dfdb7bd4240c')">
+            </form>
+          </div>
+        </div>
+          <lord-icon
+              src="https://cdn.lordicon.com/wtfdpwey.json"
+              trigger="loop"
+              colors="primary:#eaeaea,secondary:#f7a505"
+              stroke="28"
+              style="width:50px;height:50px">
+          </lord-icon>
+      </div>
+      <!-- section - 2 -->
+      <div id="section-2">
+        <div class="profile_wrap" id="set-2">
+          <div class="profile_img" data-aos="zoom-in-right">
+            <div class="profile_img_inner">
+              <img src="img/SungMin-img/IMG_1111.JPG" alt="me">
+            </div>
+          </div>
+          <div class="profile_info">
+            <div class="profile_info_inner" data-aos="zoom-in-left">
+              <h3>About Me</h3>
+              <p>SUNG MIN - KIM</p>
+              <p>
+                안녕하세요. 신입 웹 퍼블리셔 김성민 입니다.<br>
+                처음 웹에 대해 배울때는 막연하게 그냥 해보고 싶다는 생각으로 시작하게 되었습니다.<br>
+                하지만 배우면 배울수록 웹에 대해 상당한 매력을 느껴 이 길을 선택하게 되었고<br>
+                하루하루 코딩을 하며 디자인 하는것이 너무 행복하고 즐겁습니다.
+              </p>
+              <div class="skill">
+                <div class="html5">
+                  <div class="bar">
+                    <p>HTML5</p>
+                  </div>
+                </div>
+                <div class="css3">
+                  <div class="bar">
+                    <p>CSS3</p>
+                  </div>
+                </div>
+                <div class="js_jq">
+                  <div class="bar">
+                    <p>JavaScript // Jqurey</p>
+                  </div>
+                </div>
+                <div class="ps_ai">
+                  <div class="bar">
+                    <p>Ps // Ai</p>
+                  </div>
+                </div>
+              </div>
+              <button id="resume" onclick="window.open('https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:0b470b4a-605c-46a5-bc04-dfdb7bd4240c')">이력서 보러가기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section - 4 -->
+      <div id="section-4">
+        <div class="portfolio_wrap">
+          <div class="portfolio_inner">
+            <h3 data-aos="zoom-in">Project progress</h3>
+            <div class="box" data-aos="zoom-in-right">
+              <div class="picture" onclick="window.open('portfolio_list/bohun/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/BO.png" alt="보훈공단 리뉴얼">
+                </a>
+                <div class="Explanation">
+                  <p>기획부터 퍼블리싱 까지 전부 100% 직접제작 하였습니다.</p>
+                  <p>[메인] [회사소개] [공지사항]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>보훈공단 [리뉴얼]</h2>
+                  <p>기획 / 디자인 / 퍼블리싱 100% [제작기간 2주]</p>
+                  <button onclick="window.open('portfolio_list/bohun/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box" data-aos="zoom-in-left">
+              <div class="picture" onclick="window.open('portfolio_list/FLO/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/FLO.png" alt="FLO 리뉴얼">
+                </a>
+                <div class="Explanation">
+                  <p>기획부터 퍼블리싱 까지 전부 100% 직접제작 하였습니다.</p>
+                  <p>[메인] [로그인] [뮤직플레이어]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>FLO [리뉴얼]</h2>
+                  <p>기획 / 디자인 / 퍼블리싱 100% [제작기간 2주]</p>
+                  <button onclick="window.open('portfolio_list/FLO/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                  <button onclick="window.open('https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:fcb19591-a22a-42ba-9451-cd16f9ce6675')">
+                    <p>Proposal</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+  
+            <!-- <div class="box" data-aos="zoom-in-right">
+              <div class="picture" onclick="window.open('portfolio_list/JejuAir/html/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/JA.png" alt="제주항공 리뉴얼">
+                </a>
+                <div class="Explanation">
+                  <p>기획부터 퍼블리싱 까지 전부 100% 직접제작 하였습니다.</p>
+                  <p>[메인 홈페이지]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>제주항공 [리뉴얼]</h2>
+                  <p>기획 / 디자인 / 퍼블리싱 100% [제작기간 2주]</p>
+                  <button onclick="window.open('portfolio_list/JejuAir/html/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+   -->
+            <div class="box" data-aos="zoom-in-left">
+              <div class="picture" onclick="window.open('portfolio_list/daangn project/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/daangn.png" alt="당근마켓 클론">
+                </a>
+                <div class="Explanation">
+                  <p>본래의 사이트를 최대한 비슷하게 구현해 보았습니다.</p>
+                  <p>[index]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>당근마켓 [클론코딩]</h2>
+                  <p>퍼블리싱 100% [제작기간 1일]</p>
+                  <button onclick="window.open('portfolio_list/daangn project/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="box" data-aos="zoom-in-right">
+              <div class="picture" onclick="window.open('portfolio_list/dc/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/dc.png" alt="디시인사이드 클론">
+                </a>
+                <div class="Explanation">
+                  <p>본래의 사이트를 최대한 비슷하게 구현해 보았습니다.</p>
+                  <p>[메인 홈페이지]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>디시인사이드 [클론코딩]</h2>
+                  <p>퍼블리싱 100% [제작기간 2일]</p>
+                  <!-- <button onclick="window.open('https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:ef3bf704-9f01-4128-95e0-ba9146ed3085')">
+                    <p>Proposal</p>
+                  </button> -->
+                  <button onclick="window.open('portfolio_list/dc/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" data-aos="zoom-in-left">
+              <div class="picture" onclick="window.open('portfolio_list/Opencritic/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/op.png" alt="오픈크리틱 클론코딩">
+                </a>
+                <div class="Explanation">
+                  <p>본래의 사이트에 역동적인 아이콘을 추가해 비슷하게 구현해 보았습니다.</p>
+                  <p>[index]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>Opencritic [클론코딩]</h2>
+                  <p>퍼블리싱 100% [제작기간 2일]</p>
+                  <!-- <button onclick="window.open('https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:ef3bf704-9f01-4128-95e0-ba9146ed3085')">
+                    <p>Proposal</p>
+                  </button> -->
+                  <button onclick="window.open('portfolio_list/Opencritic/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="box" data-aos="zoom-in-right">
+              <div class="picture" onclick="window.open('portfolio_list/Martin/index.html')">
+                <a href="#none">
+                  <img src="img/portfolio/bg-png/blog.png" alt="마틴게릭스 팬 블로그">
+                </a>
+                <div class="Explanation">
+                  <p>트랜디한 느낌의 블로그를 만들어보고 있습니다.</p>
+                  <p>[index]</p>
+                  <p>클릭시 사이트로 이동!</p>
+                </div>
+              </div>
+              <div class="text_wrap">
+                <div class="text">
+                  <h2>Martin Garrix [Blog]</h2>
+                  <p>퍼블리싱 100% [기획중..]</p>
+                  <button onclick="window.open('portfolio_list/Martin/index.html')">
+                    <p>Viwe</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- section - 5 -->
+      <div id="section-5">
+        <p>Copyright©2021 Sung-Min All rights reserved.</p>
+        <p>var 0.1.5<span> 220117 build</span></p><!-- build var -->
+      </div>
+  </div>
+
+  <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $(function(){
+    var shrinkHeader = 300;
+      $(window).scroll(function() {
+        var scroll = getCurrentScroll();
+          if ( scroll >= shrinkHeader ) {
+              $('.header').addClass('shrink');
+            }
+            else {
+                $('.header').removeClass('shrink');
+            }
+      });
+    function getCurrentScroll() {
+        return window.pageYOffset || document.documentElement.scrollTop;
+        }
+    });
+  </script>
+  <script>
+    AOS.init();
+    alert('사이트 리뉴얼 중 입니다!');
+  </script>
+</body>
+</html>

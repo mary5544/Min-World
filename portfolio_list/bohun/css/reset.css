@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'GmarketSansMedium';
+  color: #3A3532;
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body{
+  background: #f9f9f9;
+}
+ul, li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+input{
+  outline: none;
+  border: none;
+}
