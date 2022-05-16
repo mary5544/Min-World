@@ -285,29 +285,10 @@
       </div>
   </div>
 
-  <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    $(function(){
-    var shrinkHeader = 300;
-      $(window).scroll(function() {
-        var scroll = getCurrentScroll();
-          if ( scroll >= shrinkHeader ) {
-              $('.header').addClass('shrink');
-            }
-            else {
-                $('.header').removeClass('shrink');
-            }
-      });
-    function getCurrentScroll() {
-        return window.pageYOffset || document.documentElement.scrollTop;
-        }
-    });
-  </script>
-  <script>
-    AOS.init();
-    alert('사이트 리뉴얼 중 입니다!');
-  </script>
+  <script src="./js/shrinkHeader.js"></script>
+  <script>AOS.init();</script>
 </body>
 </html>
