@@ -2,3 +2,4 @@
 😎Min-World: [Link Click!!][Min-World-link]
 
 [Min-World-link]: https://mary5544.github.io/Min-World/
+리뉴얼 예정!!
