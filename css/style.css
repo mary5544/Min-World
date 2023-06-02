@@ -1,7 +1,6 @@
-@import './font.css';
-@import './reset.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap');
 
-
+/* root */
 :root{
   /* box color */
   --main-box-color-1: #f7a505;
@@ -18,47 +17,66 @@
   --port-btn-border-color:#585858;
   --port-btn-text-color:#7a7a7a;
   --port-btn-text-color-hover:#d8d8d8;
-  --port-btn-bg-color:#6969693d;
-}
+  --port-btn-bg-color:#6969693d;}
 
+/* reset */
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  color: var(--main-text-color-1);
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+ul, li{
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background: #eaeaea;
+  overflow-x: hidden;
+}
+::selection{
+  background-color: var(--main-box-color-1);
+  color: #eaeaea;
+}
 
 /* header */
 .header{
-  width: 100%;  height: 110px;
   position: fixed;
+  width: 100%;
+  height: 110px;
   z-index: 999;
   box-shadow: -3px 1px 8px #0000004f;
   background-color: #d4d4d428;
   transition: all 1s ease;
 }
-.header > .header_inner {
-  max-width: 1400px;  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-.header .logo a { font-family: 'PyeongChangPeace-Bold'; }
-/* .header > .header_inner > .flex-empty { width: 500px; display: block; } */
 .header.shrink {
   height: 50px;
-  background-color: #373d41;
+  background-color: #eaeaeadc;
 }
-/* .header .logo{
+.header .logo{
   position: absolute;
   left: 175px;
   transform: translateY(-50%);
   top: 50%;
-} */
-.header.shrink .logo{
-  /* display: none; */
 }
-/* .header .nav{
+.header.shrink .logo{
+  display: none;
+}
+.header .nav{
   position: absolute;
   right: 175px;
   top: 50%;
   transform: translateY(-50%);
-} */
+}
 
 .header .nav ul{
   display: flex;
@@ -80,9 +98,8 @@
   border-radius: 10px;
 }
 .header.shrink .nav ul li span{
-  color: #fff;
+  color: var(--sub-text-color-2);
   text-shadow: none;
-  /* font-family: 'PyeongChangPeace-Light'; */
 }
 .header.shrink .nav ul li:last-child img{
   width: 32px;
@@ -91,7 +108,7 @@
   transform: translateY(2px);
 }
 
-.header .nav ul li span{ transition: all .2s ease; }
+.header .nav ul li span{transition: all .2s ease;}
 .header .nav ul li span:hover{
   color: var(--main-text-color-2);
   text-shadow: -2px 1px 12px #00000070;
@@ -99,26 +116,10 @@
 
 /* section-1*/
 #section-1{
-  width: 100%;  height: 100vh;
+  width: 100%;
+  height: 100vh;
   position: relative;
   overflow: hidden;
-
-    /* add */
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite; */
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 #section-1 .bg-layer > video{
