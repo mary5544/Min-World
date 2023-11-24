@@ -519,3 +519,20 @@
   font-weight: 100;
   transition: all .3s ease;
 }
+
+/* POPUP */
+#popupBanner { 
+  width: 100%;  height: 100vh;
+  background-color: #00000052;
+  display: flex;
+  justify-content: center;  align-items: center;
+  position: fixed;
+  z-index: 9999;
+}
+#popupBanner .inner { overflow: hidden; border-radius: 6px; }
+#popupBanner .topMenu {
+  background-color: var(--header-color);
+  display: flex;
+  justify-content: space-between; align-items: center;
+  padding: 10px 14px;
+}

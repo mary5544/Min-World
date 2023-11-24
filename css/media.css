@@ -423,4 +423,7 @@
   #section-1 .bg-layer .content input[type="button"]:hover{
     background: #b9b9b92c;
   }
+
+  #popupBanner { padding: 0 40px; }
+  #popupBanner img { width: 100%; }
 }
