@@ -1,6 +1,6 @@
 /* 테블릿 */
 @media screen and (max-width: 768px){
-
+  .header .nav { display: none; }
 }
 
 /* 스마트폰 */
@@ -372,7 +372,7 @@
 
 @media (max-width: 1440px) {
   .header { padding: 0 30px; }
-  .header .nav { display: none; }
+  /* .header .nav { display: none; } */
 
   #section-1 .bg-layer .content{
     width: 80%; height: auto;

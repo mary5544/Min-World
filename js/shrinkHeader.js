@@ -14,3 +14,8 @@ $(function(){
       return window.pageYOffset || document.documentElement.scrollTop;
       }
 });
+
+function clickAd() {
+  let clickBox = document.getElementById('abc');
+  
+}
